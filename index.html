@@ -1,0 +1,236 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ProCorp - Business Growth Solutions</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="container">
+            <div class="nav-wrapper">
+                <div class="logo">
+                    <svg width="32" height="32" viewBox="0 0 32 32" fill="none">
+                        <rect width="32" height="32" rx="4" fill="#2563EB"/>
+                        <path d="M8 24V8h8v4h-4v12H8zm12 0V8h8v4h-4v12h-4z" fill="white"/>
+                    </svg>
+                    <span>ProCorp</span>
+                </div>
+                <ul class="nav-links">
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#team">Team</a></li>
+                    <li><a href="#blog">Blog</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+                <a href="#portal" class="btn-portal">Client Portal</a>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="container">
+            <div class="hero-content">
+                <h1>Empowering Your <span class="highlight">Business Growth</span></h1>
+                <p>Leading the industry with innovative solutions and exceptional service. We transform challenges into opportunities for sustainable success.</p>
+                <div class="hero-buttons">
+                    <button class="btn btn-primary" onclick="scrollToSection('services')">Get Started</button>
+                    <button class="btn btn-secondary" onclick="scrollToSection('services')">Learn More</button>
+                </div>
+            </div>
+            <div class="hero-image">
+                <div class="placeholder-image">
+                    <svg viewBox="0 0 400 300" xmlns="http://www.w3.org/2000/svg">
+                        <rect width="400" height="300" fill="#E0E7FF"/>
+                        <rect x="50" y="30" width="120" height="180" fill="#C7D2FE" rx="4"/>
+                        <rect x="200" y="50" width="120" height="160" fill="#A5B4FC" rx="4"/>
+                        <rect x="350" y="70" width="35" height="140" fill="#93C5FD" rx="2"/>
+                    </svg>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Services Section -->
+    <section id="services" class="services">
+        <div class="container">
+            <h2>Our Services</h2>
+            <p class="section-subtitle">Comprehensive solutions tailored to your business needs</p>
+            <div class="services-grid">
+                <div class="service-card">
+                    <div class="service-icon">📊</div>
+                    <h3>Business Strategy</h3>
+                    <p>Develop winning strategies that align with your business goals and market opportunities.</p>
+                </div>
+                <div class="service-card">
+                    <div class="service-icon">🔧</div>
+                    <h3>Implementation</h3>
+                    <p>Seamless execution of strategic initiatives with dedicated project management and support.</p>
+                </div>
+                <div class="service-card">
+                    <div class="service-icon">📈</div>
+                    <h3>Growth Consulting</h3>
+                    <p>Accelerate your growth with data-driven insights and expert guidance from industry leaders.</p>
+                </div>
+                <div class="service-card">
+                    <div class="service-icon">🛡️</div>
+                    <h3>Risk Management</h3>
+                    <p>Identify and mitigate risks to ensure sustainable and secure business operations.</p>
+                </div>
+                <div class="service-card">
+                    <div class="service-icon">💼</div>
+                    <h3>Digital Transformation</h3>
+                    <p>Modernize your operations with cutting-edge technology and digital solutions.</p>
+                </div>
+                <div class="service-card">
+                    <div class="service-icon">🤝</div>
+                    <h3>Partnership Development</h3>
+                    <p>Build strategic partnerships that create mutual value and expand your market reach.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Team Section -->
+    <section id="team" class="team">
+        <div class="container">
+            <h2>Our Team</h2>
+            <p class="section-subtitle">Meet the experts driving your success</p>
+            <div class="team-grid">
+                <div class="team-card">
+                    <div class="team-image">👔</div>
+                    <h3>Sarah Johnson</h3>
+                    <p class="role">CEO & Founder</p>
+                    <p class="bio">20+ years of experience in corporate strategy and business development.</p>
+                    <div class="social-links">
+                        <a href="#" aria-label="LinkedIn">in</a>
+                        <a href="#" aria-label="Twitter">tw</a>
+                    </div>
+                </div>
+                <div class="team-card">
+                    <div class="team-image">👨‍💼</div>
+                    <h3>Michael Chen</h3>
+                    <p class="role">Chief Technology Officer</p>
+                    <p class="bio">Tech innovator with expertise in digital transformation and cloud solutions.</p>
+                    <div class="social-links">
+                        <a href="#" aria-label="LinkedIn">in</a>
+                        <a href="#" aria-label="Twitter">tw</a>
+                    </div>
+                </div>
+                <div class="team-card">
+                    <div class="team-image">👩‍💼</div>
+                    <h3>Emily Rodriguez</h3>
+                    <p class="role">Head of Operations</p>
+                    <p class="bio">Operations expert specializing in process optimization and efficiency improvement.</p>
+                    <div class="social-links">
+                        <a href="#" aria-label="LinkedIn">in</a>
+                        <a href="#" aria-label="Twitter">tw</a>
+                    </div>
+                </div>
+                <div class="team-card">
+                    <div class="team-image">👨‍🔬</div>
+                    <h3>David Park</h3>
+                    <p class="role">Lead Consultant</p>
+                    <p class="bio">Strategic consultant with proven track record in business growth and scaling.</p>
+                    <div class="social-links">
+                        <a href="#" aria-label="LinkedIn">in</a>
+                        <a href="#" aria-label="Twitter">tw</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Blog Section -->
+    <section id="blog" class="blog">
+        <div class="container">
+            <h2>Latest Insights</h2>
+            <p class="section-subtitle">Stay updated with industry trends and expert advice</p>
+            <div class="blog-grid">
+                <article class="blog-card">
+                    <div class="blog-meta">
+                        <span class="date">Nov 15, 2025</span>
+                        <span class="category">Strategy</span>
+                    </div>
+                    <h3>5 Key Trends Shaping Business in 2025</h3>
+                    <p>Discover the most impactful trends that will define business landscape this year and how to prepare.</p>
+                    <a href="#" class="read-more">Read More →</a>
+                </article>
+                <article class="blog-card">
+                    <div class="blog-meta">
+                        <span class="date">Nov 10, 2025</span>
+                        <span class="category">Technology</span>
+                    </div>
+                    <h3>Digital Transformation Success Stories</h3>
+                    <p>Learn from real-world examples of companies that successfully transformed their operations digitally.</p>
+                    <a href="#" class="read-more">Read More →</a>
+                </article>
+                <article class="blog-card">
+                    <div class="blog-meta">
+                        <span class="date">Nov 5, 2025</span>
+                        <span class="category">Growth</span>
+                    </div>
+                    <h3>Scaling Your Team for Growth</h3>
+                    <p>Strategic approaches to building and scaling teams that drive sustainable business growth.</p>
+                    <a href="#" class="read-more">Read More →</a>
+                </article>
+            </div>
+        </div>
+    </section>
+
+    <!-- Client Portal CTA -->
+    <section id="portal" class="portal-cta">
+        <div class="container">
+            <h2>Manage Your Projects Effortlessly</h2>
+            <p>Access your dedicated client portal to track projects, collaborate with our team, and stay updated on your initiatives.</p>
+            <button class="btn btn-primary" onclick="openPortal()">Launch Client Portal</button>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <div class="container">
+            <h2>Get In Touch</h2>
+            <div class="contact-wrapper">
+                <div class="contact-info">
+                    <div class="info-item">
+                        <h4>Email</h4>
+                        <p><a href="mailto:hello@procorp.com">hello@procorp.com</a></p>
+                    </div>
+                    <div class="info-item">
+                        <h4>Phone</h4>
+                        <p><a href="tel:+1234567890">+1 (234) 567-890</a></p>
+                    </div>
+                    <div class="info-item">
+                        <h4>Office</h4>
+                        <p>123 Business Avenue<br>New York, NY 10001</p>
+                    </div>
+                </div>
+                <form class="contact-form" onsubmit="handleFormSubmit(event)">
+                    <input type="text" placeholder="Your Name" required>
+                    <input type="email" placeholder="Your Email" required>
+                    <textarea placeholder="Your Message" rows="5" required></textarea>
+                    <button type="submit" class="btn btn-primary">Send Message</button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; 2025 ProCorp. All rights reserved.</p>
+            <div class="footer-links">
+                <a href="#">Privacy Policy</a>
+                <a href="#">Terms of Service</a>
+                <a href="#">Cookie Policy</a>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
