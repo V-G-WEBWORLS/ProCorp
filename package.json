@@ -1,0 +1,11 @@
+{
+  "name": "procorp",
+  "version": "1.0.0",
+  "description": "ProCorp static website",
+  "scripts": {
+    "start": "npx http-server -c-1 -p 3000",
+    "build": "node build.js"
+  },
+  "author": "",
+  "license": "MIT"
+}
